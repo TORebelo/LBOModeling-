@@ -82,7 +82,30 @@ print(lbo.income_stmt)
 print(lbo.cash_flow)
 print(lbo.balance_sheet)
 ```
+## 📋 Example Output
 
+```
+LBO Model Summary for Acme Corp
+==================================================
+Entry Year: 2023
+Exit Year: 2028
+Holding Period: 5 years
+
+Entry EBITDA: $125.00M
+Purchase Price (at 10.0x EBITDA): $1,250.00M
+
+Financing Structure:
+  - Debt: $750.00M (60.0%)
+  - Equity: $500.00M (40.0%)
+
+Exit Metrics:
+  Exit EBITDA: $220.00M
+  Exit EBITDA Margin: 30.0%
+
+Returns:
+  IRR: 18.7%
+  MOIC: 2.35x
+```
 
 
 
