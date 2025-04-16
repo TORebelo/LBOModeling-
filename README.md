@@ -1,71 +1,56 @@
-# LBOModeling
+# 📊 LBO Model Generator
+
 A Python tool that automates the creation of Leveraged Buyout (LBO) financial models. Perform comprehensive LBO analysis including debt structuring, financial projections, and return metrics with visual insights.
-🔍 Overview
+
+---
+
+## 🔍 Overview
 
 This tool implements a complete framework for LBO analysis, enabling users to:
 
-    Model detailed financial projections
+- Model detailed financial projections  
+- Analyze capital structure  
+- Evaluate investment returns (IRR, MOIC)  
+- Visualize key metrics over the holding period  
 
-    Analyze capital structure
+---
 
-    Evaluate investment returns (IRR, MOIC)
+## ✨ Features
 
-    Visualize key metrics over the holding period
+### 🧾 Complete LBO Modeling Framework
 
-✨ Features
-🧾 Complete LBO Modeling Framework
+- Income statement projections: `Revenue → EBITDA → Net Income`
+- Cash flow statement with integrated debt repayment
+- Balance sheet projections
+- IRR and MOIC calculations
 
-    Income statement projections: Revenue → EBITDA → Net Income
+### 📈 Key Metrics
 
-    Cash flow statement with integrated debt repayment
+- Entry/exit valuation multiples
+- Debt/equity financing breakdown
+- Free cash flow generation
+- Amortization and debt paydown schedule
 
-    Balance sheet projections
+### 📊 Visualizations
 
-    IRR and MOIC calculations
+- Revenue & EBITDA growth
+- Margin improvement trends
+- Debt balance over time
+- Cumulative free cash flow
 
-📈 Key Metrics
+---
 
-    Entry/exit valuation multiples
+## ⚙️ Installation
 
-    Debt/equity financing breakdown
+### 1. Clone the Repository
 
-    Free cash flow generation
-
-    Amortization and debt paydown schedule
-
-📊 Visualizations
-
-    Revenue & EBITDA growth
-
-    Margin improvement trends
-
-    Debt balance over time
-
-    Cumulative free cash flow
-
-⚙️ Installation
-1. Clone the Repository
-
+```bash
 git clone https://github.com/yourusername/lbo-model-generator.git
 cd lbo-model-generator
-
-2. Install Dependencies
-
 pip install -r requirements.txt
+```
 
-Dependencies
-
-    Python 3.7+
-
-    pandas
-
-    numpy
-
-    numpy-financial
-
-    matplotlib
-
-🚀 Usage
+## 🚀 Usage
 
 from lbo_model import LBOModel
 
@@ -97,60 +82,6 @@ print(lbo.income_stmt)
 print(lbo.cash_flow)
 print(lbo.balance_sheet)
 
-📋 Example Output
 
-LBO Model Summary for Acme Corp
-==================================================
-Entry Year: 2023
-Exit Year: 2028
-Holding Period: 5 years
 
-Entry EBITDA: $125.00M
-Purchase Price (at 10.0x EBITDA): $1,250.00M
 
-Financing Structure:
-  - Debt: $750.00M (60.0%)
-  - Equity: $500.00M (40.0%)
-
-Exit Metrics:
-  Exit EBITDA: $220.00M
-  Exit EBITDA Margin: 30.0%
-
-Returns:
-  IRR: 18.7%
-  MOIC: 2.35x
-
-⚙️ Customization Options
-💰 Financial Structure
-
-    Add multiple debt tranches
-
-    Include preferred equity
-
-    Account for transaction fees
-
-🧮 Model Enhancements
-
-    Monthly/quarterly periodicity
-
-    Detailed working capital modeling
-
-    Tax shield and depreciation modeling
-
-🔎 Analysis Tools
-
-    Sensitivity tables
-
-    Scenario analysis
-
-    Waterfall return structures
-
-🤝 Contributing
-
-Contributions are welcome! Feel free to submit pull requests for:
-
-    🚧 Bug fixes
-
-    ✨ New features
-
-    📝 Improved documentation
