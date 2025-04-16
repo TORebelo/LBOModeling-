@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Usage
-
+```
 from lbo_model import LBOModel
 
 # Initialize model
@@ -81,6 +81,7 @@ lbo.visualize()
 print(lbo.income_stmt)
 print(lbo.cash_flow)
 print(lbo.balance_sheet)
+```
 
 
 
